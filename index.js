@@ -11,7 +11,10 @@
 function abbrevName(name) {
   const myArray = name.split(" ");
   let abbrev = myArray[0].charAt(0) + "." + myArray[1].charAt(0);
-  console.log(abbrev.toUpperCase());
+  return abbrev.toUpperCase();
 }
 
-abbrevName("patrick feeney");
+// function abbrevName(name) {
+//   var nameArray = name.split(" ");
+//   return (nameArray[0][0] + "." + nameArray[1][0]).toUpperCase();
+// }
